@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+.image__wrapper {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin: 0 auto;
+  max-width: 960px;
+  height: 500px;
+  display: inline-block;
+}
+
+.wire__wrapper {
+  position: relative;
+  float: left;
+  width: 600px;
+  height: 500px;
+
+}
+
+.musical__wrapper {
+  position: absolute;
+  float: left;
+  width: 362px;
+  height: 500px;
+  background-color: white;
+  right: 0px;
+}
+
+.image__wire {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.image__wire--red {
+  clip: rect(0px, 600px, 60px, 590px);
+}
+
+.image__player {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
